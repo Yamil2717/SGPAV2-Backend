@@ -12,3 +12,4 @@ C:\Projects\SGPAV2\DB\obj\Debug\net8.0\refint\DB.dll
 C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.pdb
 C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.genruntimeconfig.cache
 C:\Projects\SGPAV2\DB\obj\Debug\net8.0\ref\DB.dll
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.sourcelink.json

@@ -65,7 +65,6 @@ namespace DB.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Stock")
-                        .HasMaxLength(100)
                         .HasColumnType("int");
 
                     b.HasKey("ID");
@@ -130,18 +129,18 @@ namespace DB.Migrations
 
             modelBuilder.Entity("DB.Products", b =>
                 {
-                    b.HasOne("DB.Categories", "Categories")
+                    b.HasOne("DB.Categories", "Category")
                         .WithMany()
                         .HasForeignKey("Category_ID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Categories");
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("DB.SaleDetail", b =>
                 {
-                    b.HasOne("DB.Products", "Products")
+                    b.HasOne("DB.Products", "Product")
                         .WithMany()
                         .HasForeignKey("ProductID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -153,7 +152,7 @@ namespace DB.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Products");
+                    b.Navigation("Product");
 
                     b.Navigation("Sale");
                 });
