@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\SGPAV2\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{123A4CA2-FA7D-4019-AABC-34178E5A91EF}|API.csproj|c:\\projects\\sgpav2\\api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123A4CA2-FA7D-4019-AABC-34178E5A91EF}|API.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123A4CA2-FA7D-4019-AABC-34178E5A91EF}|API.csproj|c:\\projects\\sgpav2\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123A4CA2-FA7D-4019-AABC-34178E5A91EF}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4C470B-D442-491A-BE31-501C565DFDC5}|..\\DB\\DB.csproj|c:\\projects\\sgpav2\\db\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4C470B-D442-491A-BE31-501C565DFDC5}|..\\DB\\DB.csproj|c:\\projects\\sgpav2\\db\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4C470B-D442-491A-BE31-501C565DFDC5}|..\\DB\\DB.csproj|c:\\projects\\sgpav2\\db\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4C470B-D442-491A-BE31-501C565DFDC5}|..\\DB\\DB.csproj|c:\\projects\\sgpav2\\db\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Projects\\SGPAV2\\DB\\Products.cs",
+              "RelativeDocumentMoniker": "..\\DB\\Products.cs",
+              "ToolTip": "C:\\Projects\\SGPAV2\\DB\\Products.cs",
+              "RelativeToolTip": "..\\DB\\Products.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvyQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:41:11.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\SGPAV2\\API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\SGPAV2\\API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T00:28:51.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Projects\\SGPAV2\\DB\\Categories.cs",
+              "RelativeDocumentMoniker": "..\\DB\\Categories.cs",
+              "ToolTip": "C:\\Projects\\SGPAV2\\DB\\Categories.cs",
+              "RelativeToolTip": "..\\DB\\Categories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:10:35.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryContext.cs",
+              "DocumentMoniker": "C:\\Projects\\SGPAV2\\DB\\InventoryContext.cs",
+              "RelativeDocumentMoniker": "..\\DB\\InventoryContext.cs",
+              "ToolTip": "C:\\Projects\\SGPAV2\\DB\\InventoryContext.cs",
+              "RelativeToolTip": "..\\DB\\InventoryContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:10:35.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sales.cs",
+              "DocumentMoniker": "C:\\Projects\\SGPAV2\\DB\\Sales.cs",
+              "RelativeDocumentMoniker": "..\\DB\\Sales.cs",
+              "ToolTip": "C:\\Projects\\SGPAV2\\DB\\Sales.cs",
+              "RelativeToolTip": "..\\DB\\Sales.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAqwC0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:40:45.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Projects\\SGPAV2\\API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Projects\\SGPAV2\\API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAUwDQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T08:49:11.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

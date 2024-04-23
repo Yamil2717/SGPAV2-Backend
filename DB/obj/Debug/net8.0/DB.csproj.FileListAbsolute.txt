@@ -1,0 +1,14 @@
+C:\Projects\SGPAV2\DB\bin\Debug\net8.0\DB.deps.json
+C:\Projects\SGPAV2\DB\bin\Debug\net8.0\DB.runtimeconfig.json
+C:\Projects\SGPAV2\DB\bin\Debug\net8.0\DB.dll
+C:\Projects\SGPAV2\DB\bin\Debug\net8.0\DB.pdb
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.csproj.AssemblyReference.cache
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.AssemblyInfoInputs.cache
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.AssemblyInfo.cs
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.csproj.CoreCompileInputs.cache
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.dll
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\refint\DB.dll
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.pdb
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\DB.genruntimeconfig.cache
+C:\Projects\SGPAV2\DB\obj\Debug\net8.0\ref\DB.dll
