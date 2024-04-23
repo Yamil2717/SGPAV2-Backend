@@ -29,14 +29,11 @@ namespace DB
         public decimal Price { get; set; } = 0.0M;
 
         [Required]
-        [StringLength(100)]
-        [MinLength(1)]
         public int Stock {  get; set; } = 0;
 
-        [Required]
         public int Category_ID { get; set; }
         [ForeignKey("Category_ID")]
 
-        public virtual required Categories Categories { get; set; }
+        public virtual required Categories Category { get; set; }
     }
 }

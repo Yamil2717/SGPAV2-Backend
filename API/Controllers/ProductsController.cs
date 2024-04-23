@@ -1,7 +1,5 @@
-﻿using DB;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using DB;
 
 namespace API.Controllers
 {
@@ -9,24 +7,23 @@ namespace API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        private readonly ProductsInterface _productsRepository;
 
-        private readonly InventoryContext _ProductContext;
-
-        public ProductsController(InventoryContext context)
+        public ProductsController(ProductsInterface productsRepository)
         {
-            _ProductContext = context;
+            _productsRepository = productsRepository;
         }
 
         [HttpGet]
-        public IEnumerable<Products> Get()
+        public ActionResult<IEnumerable<Products>> Get()
         {
-            return _ProductContext.Products.ToList();
+            return Ok(_productsRepository.GetAll());
         }
 
         [HttpGet("{id}")]
         public ActionResult<Products> Get(int id)
         {
-            var product = _ProductContext.Products.Find(id);
+            var product = _productsRepository.Get(id);
 
             if (product == null)
             {
@@ -43,11 +40,10 @@ namespace API.Controllers
             {
                 return BadRequest(ModelState);
             }
-            
-            _ProductContext.Products.Add(product);
-            _ProductContext.SaveChanges();
 
-            return CreatedAtAction("Get", new { id = product.ID }, product);
+            var createdProduct = _productsRepository.Add(product);
+
+            return CreatedAtAction(nameof(Get), new { id = createdProduct.ID }, createdProduct);
         }
 
         [HttpPut("{id}")]
@@ -58,8 +54,27 @@ namespace API.Controllers
                 return BadRequest();
             }
 
-            _ProductContext.Entry(product).State = EntityState.Modified;
-            _ProductContext.SaveChanges();
+            var updatedProduct = _productsRepository.Update(id, product);
+
+            if (updatedProduct == null)
+            {
+                return NotFound();
+            }
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var product = _productsRepository.Get(id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            _productsRepository.Delete(id);
 
             return NoContent();
         }

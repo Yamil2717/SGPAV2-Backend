@@ -14,14 +14,14 @@ namespace DB
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
-        [Required]
         public int ProductID { get; set; }
         [ForeignKey("ProductID")]
-        public virtual Products Products { get; set; }
 
-        [Required]
+        public virtual Products Product { get; set; }
+
         public int SaleID { get; set; }
         [ForeignKey("SaleID")]
+
         public virtual Sale Sale { get; set; }
 
         [Required]
